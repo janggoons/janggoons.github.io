@@ -44,7 +44,7 @@ analytics:
 author:
   name: "장윤재"
   # avatar: "/assets/images/profile.jpg"   # 사진을 assets/images/에 넣고 주석 해제
-  bio: "'컴퓨팅'으로 이해하고 만드는 것을 가르치는 교육자이자 '컴퓨팅 교육' 연구자<br>강원대학교 자유전공학부 조교수 · 학부장"
+  bio: "'컴퓨팅'으로 이해하고 만드는 것을 가르치는 교육자이자 '컴퓨팅 교육' 연구자<br>강원대학교 강릉자유전공학부 조교수 · 학부장"
   location: "강릉, 대한민국"
   email: "janggoons@gmail.com"
   links:
@@ -60,6 +60,9 @@ author:
     - label: "CV (한국어)"
       icon: "fas fa-fw fa-file-alt"
       url: "https://docs.google.com/document/d/1X8UR2HIwXToLiSQd_jrs8X9i1CWWjq45-WO3AwCkhqk/edit?usp=sharing"
+    - label: "CV (English)"
+      icon: "fas fa-fw fa-file-alt"
+      url: "https://docs.google.com/document/d/1hSi9qDPFXdLzW0Us9hN4P-nbxZc5hayxOl--jcufM5Y/edit?usp=sharing"
     # - label: "Google Scholar"
     #   icon: "fas fa-fw fa-graduation-cap"
     #   url: ""
