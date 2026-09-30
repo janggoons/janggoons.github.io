@@ -1,0 +1,18 @@
+# 상단 메뉴 — 순서대로 표시됩니다
+main:
+  - title: "글"
+    url: /posts/
+  - title: "카테고리"
+    url: /categories/
+  - title: "태그"
+    url: /tags/
+  - title: "Research"
+    url: /research/
+  - title: "Books"
+    url: /books/
+  - title: "Lectures"
+    url: /lectures/
+  - title: "Activity"
+    url: /activity/
+  - title: "About"
+    url: /about/

@@ -1,0 +1,16 @@
+{%- comment -%}
+  논문 목록 출력 — 사용법: {% include pub-list.html kind="journal" %}
+  kind: journal / conference / report / etc / thesis
+{%- endcomment -%}
+{%- assign pubs = site.data.publications | where: "kind", include.kind -%}
+{%- assign by_year = pubs | group_by: "year" | sort: "name" | reverse -%}
+<div class="pub-block">
+{%- for group in by_year %}
+<h4 class="pub-year">{{ group.name }}</h4>
+<ol class="pub-list">
+{%- for p in group.items %}
+<li>{% if p.type %}<span class="badge {{ p.type }}">{{ site.data.badges[p.type] }}</span> {% endif %}{{ p.cite }}{% if p.award %} <span class="pub-award">🏆 {{ p.award }}</span>{% endif %}{% if p.doi %} <a class="pub-link" href="https://doi.org/{{ p.doi }}">DOI</a>{% elsif p.url %} <a class="pub-link" href="{{ p.url }}">링크</a>{% endif %}{% if p.slides %} <a class="pub-link" href="{{ p.slides }}">발표자료</a>{% endif %}</li>
+{%- endfor %}
+</ol>
+{%- endfor %}
+</div>

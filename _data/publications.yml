@@ -1,0 +1,366 @@
+# ─────────────────────────────────────────────
+#  논문 · 발표 목록 — Research 페이지에 종류별 · 연도별로 자동 정렬되어 표시됩니다.
+#  새 항목은 해당 종류(kind) 구역 맨 위에 추가하세요.
+#
+#  - kind: journal        # journal 학술지 / conference 학술대회 / report 보고서 / etc 기타 / thesis 학위논문
+#    year: 2026
+#    type: ssci           # 배지: ssci / scopus / kci / kci-c / conf / conf-intl (없으면 줄 삭제)
+#    url: https://...     # 논문 페이지 (선택)
+#    doi: 10.xxxx/xxxxx   # 선택
+#    slides: https://...  # 발표자료 (선택)
+#    award: 우수발표논문상 # 선택
+#    cite: >-
+#      <u>장윤재</u>*, 홍길동. (2026). 논문 제목. <em>학술지명</em>, 10(2), 1–10.
+#
+#  * = 교신저자, † = 공동 제1저자, <u>본인 이름</u>
+#  출처: Google Sites (sites.google.com/view/janggoons/publication), 2026-09-30 기준
+# ─────────────────────────────────────────────
+
+# ═══════════ 학술지 논문 ═══════════
+
+# 2026
+- kind: journal
+  year: 2026
+  type: ssci
+  doi: 10.1080/10494820.2026.2667458
+  cite: >-
+    Gwak, S., <u>Jang, Y.</u>, Kim, S., Yang, J., Lee, H., &amp; Kim, H. (2026). Playfulness and Social–Emotional Support as Predictors of Elementary Students' AI Self-Efficacy. <em>Interactive Learning Environments</em>, 1–20.
+- kind: journal
+  year: 2026
+  type: kci
+  url: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003348145
+  cite: >-
+    김한성, <u>장윤재</u>*. (2026). 정보과 기초학력 수준 진단을 위한 성취기준 개발. <em>컴퓨터교육학회논문지</em>, 29(6), 100–113.
+
+# 2025
+- kind: journal
+  year: 2025
+  type: scopus
+  url: https://ijaseit.insightsociety.org/index.php/ijaseit/article/view/12970
+  cite: >-
+    <u>Jang, Y.</u>*, Woo, H., &amp; Kim, H. (2025). Evaluation of Korea's National-Level SW·AI Education Camp Program for K-12 Students. <em>International Journal on Advanced Science, Engineering and Information Technology</em>, 15(3), 701–707.
+- kind: journal
+  year: 2025
+  type: kci-c
+  url: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003283521
+  cite: >-
+    <u>장윤재</u>, 김송희, 유수진. (2025). 온라인 프로그래밍 교육 플랫폼에 대한 학습자의 지속 사용의도에 영향을 미치는 요인 분석. <em>지능정보융합과 미래교육</em>, 4(32), 1–15.
+- kind: journal
+  year: 2025
+  type: kci-c
+  url: https://accesson.kr/fir/v.5/1/17/55417
+  cite: >-
+    Woo, H., Yoon, I., &amp; <u>Jang, Y.</u> (2025). An Analysis of Elementary School Students' Perceptions and Satisfaction with Software Education According to Teachers' Perceived Necessity for Software Education. <em>Fourth Industrial Review</em>, 5(1), 17–22.
+
+# 2024
+- kind: journal
+  year: 2024
+  type: kci
+  url: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003121096
+  cite: >-
+    김한성, 이새봄, <u>장윤재</u>*. (2024). 마이데이터 기반 SW·AI 교육 훈련 플랫폼 수용의도 분석. <em>한국컴퓨터정보학회논문지</em>, 29(9), 269–277.
+- kind: journal
+  year: 2024
+  type: kci
+  url: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003103486
+  cite: >-
+    김송희, <u>장윤재</u>†, 이재진. (2024). 정보·컴퓨터 부·복수전공 자격연수 참여 교사의 교육 요구도 분석. <em>교원교육</em>, 40(4), 245–269.
+- kind: journal
+  year: 2024
+  type: kci
+  url: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003082557
+  cite: >-
+    김송희, 김현정, 신유리, <u>장윤재</u>*. (2024). 생성형 인공지능을 활용한 SDGs 기반 교과 융합 교육 프로그램 설계에 대한 협력적 실행연구. <em>컴퓨터교육학회논문지</em>.
+- kind: journal
+  year: 2024
+  type: kci
+  url: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003064988
+  cite: >-
+    <u>장윤재</u>*, 백재순, 유수진. (2024). 고등학생의 인공지능 교육 인식 및 요구 분석. <em>컴퓨터교육학회논문지</em>, 27(2), 25–36.
+- kind: journal
+  year: 2024
+  type: kci-c
+  url: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003158127
+  cite: >-
+    <u>장윤재</u>. (2024). 정보 윤리 판단력 수준 측정을 위한 정보사회 이슈 기반의 딜레마 시나리오 개발. <em>지능정보융합과 미래교육</em>, 3(1), 1–8.
+
+# 2023
+- kind: journal
+  year: 2023
+  type: scopus
+  url: https://www.insightsociety.org/ojaseit/index.php/ijaseit/article/view/19057
+  cite: >-
+    <u>Jang, Y.</u>*, Yoon, I., &amp; Woo, H. (2023). Development of AI Liberal Arts Curriculum for the General Public. <em>International Journal on Advanced Science, Engineering and Information Technology</em>, 13(5), 1978–1983.
+- kind: journal
+  year: 2023
+  type: kci
+  url: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003039293
+  cite: >-
+    고윤미, <u>장윤재</u>†, 전수진. (2023). 생물정보학 기반의 데이터 융합 교육을 위한 프로그램 개발 및 효과. <em>정보교육학회논문지</em>, 27(6), 763–774.
+- kind: journal
+  year: 2023
+  type: kci
+  url: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003013355
+  cite: >-
+    <u>장윤재</u>*, 윤일규, 김한성. (2023). 보편적 인공지능 교육을 위한 핵심 역량 도출 및 타당화. <em>정보교육학회논문지</em>, 27(5), 477–488.
+- kind: journal
+  year: 2023
+  type: kci
+  url: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003001797
+  cite: >-
+    김송희, <u>장윤재</u>*. (2023). 프로그래밍 교육에서 인공지능 챗봇에 대한 고등학생의 지속 사용 의도에 미치는 요인 분석. <em>컴퓨터교육학회논문지</em>, 26(5), 93–105.
+- kind: journal
+  year: 2023
+  type: kci
+  url: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002942004
+  cite: >-
+    백재순, 이은진, <u>장윤재</u>†, 유수진, 오규환. (2023). 메타버스 플랫폼에서의 게임 창작 활동 교육 프로그램 개발 – 초등 영재 학생을 대상으로. <em>컴퓨터교육학회논문지</em>, 26(2), 41–57.
+
+# 2022
+- kind: journal
+  year: 2022
+  type: kci
+  url: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002898740
+  cite: >-
+    <u>장윤재</u>*, 임현정, 김한성. (2022). 초·중등 정보·컴퓨팅 교육의 실행 수준과 디지털 인식 및 태도 간의 관계 분석. <em>컴퓨터교육학회논문지</em>, 25(6), 63–72.
+- kind: journal
+  year: 2022
+  type: kci
+  url: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002882603
+  cite: >-
+    유수진, 백재순, <u>장윤재</u>*. (2022). 인공지능 교양 교육을 받은 대학생의 인공지능 역량과 컴퓨팅 사고력의 관계 분석. <em>컴퓨터교육학회논문지</em>, 25(5), 15–26.
+
+# 2021
+- kind: journal
+  year: 2021
+  type: kci
+  url: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002793134
+  cite: >-
+    유수진, <u>장윤재</u>*. (2021). 텍스트 마이닝으로 살펴본 대학생들의 인공지능 윤리 인식 연구. <em>정보교육학회논문지</em>, 25(6), 947–960.
+
+# 2018
+- kind: journal
+  year: 2018
+  type: ssci
+  url: https://link.springer.com/article/10.1007/s12083-017-0608-y
+  cite: >-
+    <u>Jang, Y.</u>*, Kim, J., &amp; Lee, W. (2018). Development and application of internet of things educational tool based on peer to peer network. <em>Peer-to-Peer Networking and Applications</em>, 11(6), 1217–1229.
+- kind: journal
+  year: 2018
+  url: https://www.riss.kr/search/detail/DetailView.do?p_mat_type=1a0202e37d52c72d&control_no=57dd146d0a8c0a6fb36097776a77e665
+  cite: >-
+    <u>장윤재</u>, 김자미. (2018). 고등교육 관점에서 나노디그리 활용 방안 탐색. <em>이러닝학회논문지</em>, 3(1), 31–42.
+
+# 2016
+- kind: journal
+  year: 2016
+  type: scopus
+  url: https://indjst.org/articles/the-changes-of-middle-school-students-perception-and-achievement-based-on-the-teaching-method-in-physical-computing-education
+  cite: >-
+    <u>Jang, Y.</u>, Lee, W., &amp; Kim, J. (2016). The Changes of Middle School Students' Perception and Achievement based on the Teaching Method in Physical Computing Education. <em>Indian Journal of Science and Technology</em>, 9(24), 1–8.
+- kind: journal
+  year: 2016
+  type: kci
+  url: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002096827
+  cite: >-
+    엄기순, <u>장윤재</u>†, 김자미, 이원규. (2016). 중등 정보교육의 피지컬 컴퓨팅 교육을 위한 보드 개발. <em>컴퓨터교육학회논문지</em>, 19(2), 1–10.
+
+# 2015
+- kind: journal
+  year: 2015
+  type: scopus
+  cite: >-
+    <u>Jang, Y.</u>, Lee, W., &amp; Kim, J. (2015). Analysis of Pedagogical Usability about Tools in Physical Computing Education for Middle School Students. <em>International Journal of Applied Engineering Research</em>, 10(90), 636–641.
+- kind: journal
+  year: 2015
+  type: scopus
+  cite: >-
+    <u>Jang, Y.</u>, Lee, W., &amp; Kim, J. (2015). Assessing the Usefulness of Object-based Programming Education using Arduino. <em>Indian Journal of Science and Technology</em>, 8(51), 89–96.
+- kind: journal
+  year: 2015
+  type: kci
+  url: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001992800
+  cite: >-
+    윤일규, <u>장윤재</u>†, 정순영, 이원규. (2015). 스마트 기기 기반의 로봇 프로그래밍 교육 이후 초등 영재들의 수준에 따른 IT 융합 학습에 대한 인식 차이 분석. <em>한국컴퓨터정보학회논문지</em>, 20(5), 161–169.
+
+# 2014
+- kind: journal
+  year: 2014
+  type: kci
+  url: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001918287
+  cite: >-
+    김용천, <u>장윤재</u>†, 윤일규, 김자미, 이원규. (2014). 게임 요소 기반의 객체지향 개념 학습에 대한 수업 사례 연구. <em>컴퓨터교육학회논문지</em>, 17(5), 1–13.
+
+# 2011
+- kind: journal
+  year: 2011
+  type: kci
+  url: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001607047
+  cite: >-
+    <u>장윤재</u>*, 김자미, 이원규. (2011). EPL을 활용한 프로그래밍 교육에서 문제해결 수준이 프로젝트 완성도에 미치는 영향. <em>컴퓨터교육학회논문지</em>, 14(6), 41–51.
+- kind: journal
+  year: 2011
+  type: kci
+  url: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001521837
+  cite: >-
+    <u>장윤재</u>*, 김동형, 김한성, 이원규, 김현철. (2011). 정보보호 교육을 위한 언플러그드 활동의 개발 및 유용성 평가. <em>컴퓨터교육학회논문지</em>, 14(1), 55–67.
+- kind: journal
+  year: 2011
+  type: kci
+  url: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001521832
+  cite: >-
+    <u>장윤재</u>*, 김자미, 이원규. (2011). 교육용 프로그래밍 언어를 활용한 학습에서 학습양식에 따른 프로젝트 완성 능력의 차이 검증. <em>컴퓨터교육학회논문지</em>, 14(1), 1–12.
+- kind: journal
+  year: 2011
+  type: kci
+  url: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001574996
+  cite: >-
+    김자미, <u>장윤재</u>†, 이원규. (2011). 중학교 '정보' 교과 "정보사회와 정보기술" 영역의 탐구적 경향 분석. <em>한국산학기술학회논문지</em>, 12(7), 3022–3029.
+
+# 2010
+- kind: journal
+  year: 2010
+  type: kci
+  url: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001542423
+  cite: >-
+    최지영, <u>장윤재</u>†, 유승욱, 이원규. (2010). 중등 정보교사의 교과교육학지식(PCK) 인식수준에 대한 연구. <em>정보교육학회논문지</em>, 15(1), 23–30.
+
+# 2007
+- kind: journal
+  year: 2007
+  cite: >-
+    <u>장윤재</u>, 박동희, 김승범, 권대용, 전수진. (2007). 시뮬레이션 제작 환경을 위한 스퀵 이토이 환경 개선. <em>정보창의교육논문지</em>, 1(1), 35–43.
+
+# ═══════════ 학술대회 발표 ═══════════
+
+- kind: conference
+  year: 2026
+  type: conf
+  cite: >-
+    <u>장윤재</u>, 유수진. (2026). 대학 교양 프로그래밍 수업에서 프로그래밍 불안이 학습지속의도에 미치는 영향: 프로그래밍 회복탄력성의 매개효과를 중심으로. <em>제53회 한국컴퓨터종합학술대회</em>. (2026-06-24)
+- kind: conference
+  year: 2026
+  type: conf
+  cite: >-
+    <u>장윤재</u>, 김서진, 양정현, 이현주. (2026). 초등학생의 디지털 시민성 함양을 위한 예술 융합 AI 윤리 교육 프로그램 설계. <em>제57회 2026 한국컴퓨터교육학회 동계학술대회 논문집</em>, 30(1), 177–180. (2026-01-22)
+- kind: conference
+  year: 2025
+  type: conf
+  slides: https://docs.google.com/presentation/d/1dUMqZblhSpZK0tNX-ryqCHFG5suYZAlDTnEgJ0KYyT8/edit?usp=sharing
+  cite: >-
+    <u>장윤재</u>, 오현진, 최정아. (2025). 컴퓨테이셔널 에세이를 활용한 대학 교양 통계 기반 논증 글쓰기 교과목 설계 연구. <em>제56회 2025 한국컴퓨터교육학회 하계학술대회 논문집</em>, 29(2), 147–150. (2025-08-22)
+- kind: conference
+  year: 2025
+  type: conf
+  cite: >-
+    유도희, <u>장윤재</u>. (2025). 컴퓨팅 사고력 함양 목적 한글 프로그래밍 언어 활용 피지컬 컴퓨팅 교육 프로그램 개발. <em>제55회 2025 한국컴퓨터교육학회 동계학술대회</em>, 29(1), 299–302.
+- kind: conference
+  year: 2024
+  type: conf-intl
+  cite: >-
+    <u>Jang, Y.</u>, Woo, H., &amp; Kim, H. (2024). Analysis of Educational Content in the 'Digital NewSac' Camp for K-12 SW·AI Education in Korea. <em>The 8th International Conference on Interdisciplinary Research on Computer Science, Psychology and Education</em>. (2024-12-18)
+- kind: conference
+  year: 2024
+  type: conf
+  award: 우수발표논문상
+  slides: https://www.slideshare.net/slideshow/jang-y-yoo-s-2024-designing-an-educational-program-on-generative-ai-technology-and-ethics-for-university-students-nextgen-ai-horizon-forum-2024/273156064
+  cite: >-
+    <u>장윤재</u>, 유수진. (2024). 대학생 대상 생성형 AI 기술 및 윤리 교육 프로그램 설계. <em>The 2nd NextGen AI Horizon Forum 2024</em>. (2024-11-08)
+- kind: conference
+  year: 2023
+  type: conf
+  url: https://kace.jams.or.kr/ac/volisse/acAccnArtiView.kci?accnId=AC0000000048&annoApplSeq=000000037477&accnArtiId=AT0000020563&aumbCnt=2
+  slides: https://docs.google.com/presentation/d/1AbO6zKlexsxqf2Xd_gjjNMU8xsWMC2o-OHcO0e_logE/edit?usp=sharing
+  cite: >-
+    곽소아, <u>장윤재</u>, 김서진, 양정현, 이현주, 김현철. (2023). 초등학교 AI융합교육의 놀이학습 적용방안 탐색: 몸 놀이와 가족의 창의적 학습을 중심으로. <em>한국컴퓨터교육학회 2023 동계 학술발표논문집</em>.
+- kind: conference
+  year: 2018
+  type: conf
+  cite: >-
+    <u>장윤재</u>, 김자미. (2018). 공무원 연수를 위한 콘텐츠 분류 현황 분석. <em>이러닝학회 2018 춘계학술발표논문집</em>.
+- kind: conference
+  year: 2018
+  type: conf
+  cite: >-
+    정다윤, <u>장윤재</u>, 김자미, 이원규. (2018). 시도 교육연수원 콘텐츠 보유 현황 분석. <em>이러닝학회 2018 춘계학술발표논문집</em>.
+- kind: conference
+  year: 2016
+  type: conf-intl
+  cite: >-
+    <u>Jang, Y.</u>, Lee, W., &amp; Kim, J. (2016). An Analysis of Educational Tools for Physical Computing Education. <em>The 3rd International Conference on Small &amp; Medium Business</em>.
+- kind: conference
+  year: 2016
+  type: conf
+  cite: >-
+    <u>장윤재</u>, 이원규. (2016). 2015년 개정 교육과정 중학교 정보 교과에 포함된 피지컬 컴퓨팅 교육 목표 분석. <em>한국컴퓨터교육학회 2016 동계 학술발표논문집</em>, 20(1).
+- kind: conference
+  year: 2015
+  type: conf-intl
+  cite: >-
+    <u>Jang, Y.</u>, Lee, W., &amp; Kim, J. (2015). Development of Learning Difficulty Analysis Tool in Physical Computing Education. <em>International Conference on Convergence Technology</em>.
+- kind: conference
+  year: 2014
+  type: conf-intl
+  cite: >-
+    <u>Jang, Y.</u>, Lee, W., &amp; Kim, J. (2014). A Study on Physical Computing based Programming Learning Considering Learning Motivation. <em>The 1st International Conference on Information, System and Convergence Applications</em>.
+- kind: conference
+  year: 2014
+  type: conf
+  cite: >-
+    <u>장윤재</u>, 이원규. (2014). 피지컬 컴퓨팅 교육을 위한 프로그래밍 언어 활용 방안 연구. <em>한국컴퓨터교육학회 2014 하계 학술발표논문집</em>, 18(2).
+- kind: conference
+  year: 2011
+  type: conf-intl
+  cite: >-
+    <u>Jang, Y.</u>, Park, D., Park, J., Kim, S., &amp; Lee, W. (2011). Analysis of Student Satisfaction in Programming Education based on Jigsaw. <em>The 3rd International Conference on Internet</em>, 261–264.
+- kind: conference
+  year: 2011
+  type: conf
+  cite: >-
+    <u>장윤재</u>, 김민하, 김자미, 이원규. (2011). Kolb의 학습양식에 따른 학습자의 스크래치 프로젝트 분석. <em>한국컴퓨터교육학회 2011 동계학술발표논문집</em>, 15(1), 85–89.
+- kind: conference
+  year: 2010
+  type: conf
+  cite: >-
+    <u>장윤재</u>, 김자미, 이원규. (2010). 데이터 마이닝과 통계기법을 활용한 사이버가정학습 만족도와 효과성과의 관계 비교 분석. <em>이러닝학회 2010 추계학술발표논문집</em>, 1(2), 93–96.
+- kind: conference
+  year: 2010
+  type: conf
+  cite: >-
+    <u>장윤재</u>, 김동형, 김한성, 이원규, 김현철. (2010). 초중등학생의 정보보호 교육을 위한 놀이 기반의 학습 활동 개발. <em>한국컴퓨터교육학회 2010 하계학술발표논문집</em>, 14(2), 107–113.
+- kind: conference
+  year: 2009
+  type: conf
+  cite: >-
+    권대용, <u>장윤재</u>, 김병욱, 이원규. (2009). 교육용 프로그래밍 환경에서 초보자를 위한 학습피드백 agent 설계. <em>한국컴퓨터교육학회 2009 동계학술대회</em>.
+
+# ═══════════ 보고서 · 기타 ═══════════
+
+- kind: report
+  year: 2026
+  url: https://keris.or.kr/main/ad/pblcte/selectPblcteRMInfo.do?mi=1139&pblcteSeq=13966
+  cite: >-
+    김한성, <u>장윤재</u>, 김보아. (2026). 초·중학생 AI·디지털 리터러시 수준 측정을 위한 프레임워크 개발 (RM 2026-5). 한국교육학술정보원.
+- kind: report
+  year: 2022
+  url: https://www.spri.kr/posts/view/23443?code=data_all&study_type=&board_type=research
+  cite: >-
+    김한성, 임현정, <u>장윤재</u>, 서영희. (2022). 국제 초·중등 정보·컴퓨팅 교육 실행 지수 개발 및 수준 분석 (RE-127). 소프트웨어정책연구소.
+- kind: etc
+  year: 2023
+  url: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11463940
+  cite: >-
+    <u>장윤재</u>. (2023). 초중등 정보교육과 대학 CT 교육의 연계성. <em>정보과학회지</em>, 41(7), 44–56.
+
+# ═══════════ 학위논문 ═══════════
+
+- kind: thesis
+  year: 2018
+  url: http://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=3885b393418b8ba4ffe0bdc3ef48d419
+  cite: >-
+    <u>장윤재</u>. (2018). 학교 교육에 적합한 피지컬 컴퓨팅 교육용 보드 개발 및 적용. 박사학위논문, 고려대학교.
+- kind: thesis
+  year: 2012
+  url: http://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=76a197a93817053fffe0bdc3ef48d419
+  cite: >-
+    <u>장윤재</u>. (2012). 프로그래밍 교육에서 학습자의 학습양식과 문제해결 수준이 프로젝트 완성도에 미치는 영향. 석사학위논문, 고려대학교.

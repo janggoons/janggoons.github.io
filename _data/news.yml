@@ -1,0 +1,153 @@
+# ─────────────────────────────────────────────
+#  활동 소식 — 첫 화면(최근 5건)과 /activity/ 페이지에 표시됩니다.
+#  새 소식은 맨 위에 추가하세요. (최신순 유지)
+#
+#  - date: "2026.09.30"
+#    text: "무슨 일이 있었는지 한 줄로"
+#    link: https://...    # 선택
+#  출처: Google Sites Home · PreviousActivity (2026-09-30 기준)
+# ─────────────────────────────────────────────
+
+- date: "2026.06.24"
+  text: "제53회 한국컴퓨터종합학술대회 발표 — 대학 교양 프로그래밍 수업에서 프로그래밍 불안이 학습지속의도에 미치는 영향"
+- date: "2026.06"
+  text: "논문 게재 — 정보과 기초학력 수준 진단을 위한 성취기준 개발 (컴퓨터교육학회논문지, 29(6))"
+  link: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003348145
+- date: "2026"
+  text: "SSCI 논문 게재 — Playfulness and Social–Emotional Support as Predictors of Elementary Students' AI Self-Efficacy (Interactive Learning Environments)"
+  link: https://doi.org/10.1080/10494820.2026.2667458
+- date: "2026.03.01"
+  text: "강원대학교 인문대학(강릉) 자유전공학부 조교수 및 학부장 발령"
+- date: "2026.01.22"
+  text: "제57회 한국컴퓨터교육학회 동계학술대회 좌장 및 발표 — 초등학생의 디지털 시민성 함양을 위한 예술 융합 AI 윤리 교육 프로그램 설계"
+- date: "2025.12.22"
+  text: "영신여자고등학교 「피지컬 AI」 특강"
+  link: https://docs.google.com/presentation/d/1lkx5sV2yDTuVAdd6_oR17t07sBZVrEKWugkJ6cAKF_4/edit?usp=sharing
+- date: "2025.08.22"
+  text: "한국컴퓨터교육학회 하계학술대회 발표 — 컴퓨테이셔널 에세이를 활용한 대학 교양 통계 기반 논증 글쓰기 교과목 설계 연구"
+  link: https://docs.google.com/presentation/d/1dUMqZblhSpZK0tNX-ryqCHFG5suYZAlDTnEgJ0KYyT8/edit?usp=sharing
+- date: "2025.07.23"
+  text: "강원대학교 교육대학원 AI융합교육 특강"
+  link: https://docs.google.com/presentation/d/1QytWt69hOUES4xEaa-XHJfa5DvsLs9wb5TdmAQbvdDU/edit?usp=sharing
+- date: "2025.07.21"
+  text: "영신여자고등학교 「AI + 피지컬 컴퓨팅」 특강 (2일)"
+  link: https://docs.google.com/presentation/d/1dVb0D1KrV9WT1mAk6PmVGwk8u0OVdMExeIgNWm_wU4Q/edit?usp=sharing
+- date: "2025.07.16"
+  text: "장충고등학교 「슬기로운 인공지능 활용 생활」 특강"
+  link: https://docs.google.com/presentation/d/1zT7GCZyClLH0zWy_yGilnAnimjakaEQzMc0d9oSxJrg/edit?usp=sharing
+- date: "2025.06.24"
+  text: "삼육대 SW중심대학사업 소프트웨어 메이킹 캠프 「파이썬 프로그래밍」 특강"
+  link: https://docs.google.com/document/d/1dg5jMStM4Eb-kJyAafMeRNGtQCSlvJeVBw1hh2qRb5Q/edit?usp=sharing
+- date: "2025.06.14"
+  text: "서울대학교사범대학부속고등학교 「지속가능발전목표를 위한 마이크로비트 프로젝트」 특강"
+- date: "2025.06"
+  text: "Scopus 논문 게재 — Evaluation of Korea's National-Level SW·AI Education Camp Program for K-12 Students (IJASEIT)"
+  link: https://ijaseit.insightsociety.org/index.php/ijaseit/article/view/12970
+- date: "2025.04.02"
+  text: "2024년도 한국컴퓨터교육학회 우수 편집위원 선정"
+  link: https://kace.jams.or.kr/co/com/EgovMenu.kci?s_url=/po/community/notice/noticeView.kci&s_MenuId=MENU-000000000061000&notiSeq=000000046422
+- date: "2025.03.01"
+  text: "국립강릉원주대학교 교양교육부 조교수 임용"
+- date: "2024.12.24"
+  text: "영신여자고등학교 「인공지능을 활용한 창의컴퓨팅」 특강"
+- date: "2024.12.19"
+  text: "탈북민 대상 「놀이로 배우는 인공지능 AI Unplugged」 강의"
+  link: https://docs.google.com/presentation/d/1kQD-gZqG9-eE3GLnywqQZOzG01efD_8FCbGg4qT36zk/edit?usp=sharing
+- date: "2024.12.18"
+  text: "The 8th International Conference on Interdisciplinary Research on Computer Science, Psychology and Education 발표"
+- date: "2024.12.16"
+  text: "국민대학교 교육학과 「생성형 AI(ChatGPT)의 교육적 활용과 AI 윤리의 이해」 특강"
+  link: https://docs.google.com/presentation/d/1lFJ-FNXatIo1Ks68mKvM6PGY8CJjFP8EXZvOuQbmUIc/edit?usp=sharing
+- date: "2024.11.11"
+  text: "장충고등학교 「인공지능을 활용한 창의컴퓨팅」 특강 (2일)"
+- date: "2024.11.08"
+  text: "NextGen AI Horizon Forum 2024 발표, 우수발표논문상 수상 — 대학생 대상 생성형 AI 기술 및 윤리 교육 프로그램 설계"
+  link: https://www.slideshare.net/slideshow/jang-y-yoo-s-2024-designing-an-educational-program-on-generative-ai-technology-and-ethics-for-university-students-nextgen-ai-horizon-forum-2024/273156064
+- date: "2024.11.01"
+  text: "숭실고등학교 「인공지능 시대 살아남는 방법」 특강"
+  link: https://janggoons.notion.site/2024-11-01-12fdc501feb9800ca49dd458708279f1
+- date: "2024.10.18"
+  text: "안양과천교육지원청 AIDT 역량강화 연수 (중등 교사 대상)"
+- date: "2024.09"
+  text: "논문 게재 — 마이데이터 기반 SW·AI 교육 훈련 플랫폼 수용의도 분석 (한국컴퓨터정보학회논문지)"
+  link: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003121096
+- date: "2024.07.23"
+  text: "영신여자고등학교 「인공지능을 활용한 창의컴퓨팅」 특강 (2일)"
+  link: https://docs.google.com/document/d/1graezPS5bincIh1ddW1d6R3vkpv32Vcd-M5e2iFKbdM/edit?usp=sharing
+- date: "2024.07.13"
+  text: "서울대학교사범대학부속고등학교 「지속가능발전목표를 위한 마이크로비트 프로젝트」 특강"
+- date: "2024.07.03"
+  text: "정덕초등학교 학부모 대상 「인공지능 시대, 자녀와 함께 살아남는 방법」 특강"
+  link: https://docs.google.com/presentation/d/11lGAlIfKntcjzwPs4sGrN8riW343mdwBXgPeSVpq63I/edit?usp=sharing
+- date: "2024.07"
+  text: "논문 게재 — 정보·컴퓨터 부·복수전공 자격연수 참여 교사의 교육 요구도 분석 (교원교육)"
+  link: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003103486
+- date: "2024.06.05"
+  text: "명지고등학교 「인공지능을 활용한 창의컴퓨팅」 특강"
+  link: https://bit.ly/2024-aicc-note
+- date: "2024.05"
+  text: "논문 게재 — 생성형 인공지능을 활용한 SDGs 기반 교과 융합 교육 프로그램 설계에 대한 협력적 실행연구 (컴퓨터교육학회논문지)"
+  link: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003082557
+- date: "2024.03"
+  text: "논문 게재 — 고등학생의 인공지능 교육 인식 및 요구 분석 (컴퓨터교육학회논문지)"
+  link: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003064988
+- date: "2024.01.02"
+  text: "영신여자고등학교 「지속가능발전목표를 위한 마이크로비트 프로젝트」 특강"
+  link: https://bit.ly/2023winter-microbit
+- date: "2023.12.12"
+  text: "고양제일중학교 「인공지능과 미래사회」 특강"
+  link: https://docs.google.com/presentation/d/1aYqTWhvUlJtIoueLGcYuexIX64qvFOL2l5Foawgzl4s/edit?usp=sharing
+- date: "2023.12"
+  text: "논문 게재 — 생물정보학 기반의 데이터 융합 교육을 위한 프로그램 개발 및 효과 (정보교육학회논문지)"
+  link: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003039293
+- date: "2023.10.30"
+  text: "한국삼육고등학교 「피지컬 컴퓨팅 융합 프로젝트」 멘토링"
+- date: "2023.10.14"
+  text: "서울대학교사범대학부속고등학교 「미디어아트 코딩」 특강"
+  link: https://bit.ly/20231014-coding
+- date: "2023.10"
+  text: "논문 게재 — 보편적 인공지능 교육을 위한 핵심 역량 도출 및 타당화 (정보교육학회논문지) · Development of AI Liberal Arts Curriculum for the General Public (IJASEIT)"
+- date: "2023.09"
+  text: "논문 게재 — 프로그래밍 교육에서 인공지능 챗봇에 대한 고등학생의 지속 사용 의도에 미치는 요인 분석 (컴퓨터교육학회논문지)"
+  link: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003001797
+- date: "2023.08.22"
+  text: "대구교대 · 엘리스 TOUCH 교사단 양성 연수"
+- date: "2023.07.31"
+  text: "동국대학교 정보컴퓨터 부전공 연수 「컴퓨터교재연구및지도법」"
+  link: https://www.notion.so/janggoons/2022-65d76e097bca4b9d9b5717778a5d6275?pvs=4
+- date: "2023.07.20"
+  text: "영신여자고등학교 「인공지능을 활용한 창의컴퓨팅」 특강"
+  link: https://janggoons.notion.site/2023-07-20-26-86a9fc1a9e574d498649f2b5c2916646?pvs=4
+- date: "2023.07"
+  text: "정보과학회지 기고 — 초중등 정보교육과 대학 CT 교육의 연계성"
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11463940
+- date: "2023.07.08"
+  text: "서울대학교사범대학부속고등학교 「파이썬 프로그래밍」 특강"
+  link: https://bit.ly/20230708-python
+- date: "2023.07.06"
+  text: "숭실고등학교 「인공지능 시대 살아남는 방법」 특강"
+  link: https://janggoons.notion.site/2023-07-06-d02de85a2d6340d18a27a062d3f64443
+- date: "2023.07.05"
+  text: "청산중학교 「인공지능과 미래사회 진로」 특강"
+  link: https://janggoons.notion.site/2023-07-05-2f9172336fcc4e2d936419e3f71edb2b
+- date: "2023.06.12"
+  text: "엘리스 SW강사 대상 「재미있게 SW/AI 가르치기」"
+  link: https://github.com/janggoons/computing-education/blob/main/20230612-elice/notice.md
+- date: "2023.05"
+  text: "상계고등학교 「인공지능으로 나만의 웹 서비스 만들기」 특강"
+  link: https://github.com/janggoons/ai-future-society/blob/main/202305-sanggye/notice.md
+- date: "2023.04.24"
+  text: "몽골 투스칼 학교 교직원 및 학생 대상 「인공지능과 미래사회」 특강"
+  link: https://github.com/janggoons/ai-future-society
+- date: "2022.03.02"
+  text: "삼육대학교 SW융합교육원 조교수 임용"
+- date: "2021.07"
+  text: "경기대학교 SW중심대학사업단 연구교수"
+- date: "2020.09"
+  text: "번역서 출간 — 창의적 코딩 교육"
+  link: https://bit.ly/creativecodingbook
+- date: "2020.08"
+  text: "중학교 시간강사 — 코로나 시대, 중학교 수업에 대한 짧은 회고"
+  link: https://bit.ly/2DYU5cc
+- date: "2020.06"
+  text: "특강 「나노디그리 받고 취업하기」"
