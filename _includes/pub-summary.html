@@ -1,0 +1,17 @@
+{%- comment -%} 성과 요약 — publications.yml에서 자동 계산 {%- endcomment -%}
+{%- assign all = site.data.publications -%}
+{%- assign j = all | where: "kind", "journal" -%}
+{%- assign c = all | where: "kind", "conference" -%}
+{%- assign n_ssci = j | where: "type", "ssci" | size -%}
+{%- assign n_scie = j | where: "type", "scie" | size -%}
+{%- assign n_intl = n_ssci | plus: n_scie -%}
+{%- assign n_scopus = j | where: "type", "scopus" | size -%}
+{%- assign n_kci = j | where: "type", "kci" | size -%}
+{%- assign n_kcic = j | where: "type", "kci-c" | size -%}
+<div class="pub-summary">
+  <div class="stat"><span class="stat__num">{{ j | size }}</span><span class="stat__label">학술지 논문<br><span lang="en">Journal articles</span></span></div>
+  <div class="stat"><span class="stat__num">{{ n_intl }}</span><span class="stat__label">SSCI · SCIE</span></div>
+  <div class="stat"><span class="stat__num">{{ n_scopus }}</span><span class="stat__label">Scopus</span></div>
+  <div class="stat"><span class="stat__num">{{ n_kci | plus: n_kcic }}</span><span class="stat__label">KCI · KCI후보</span></div>
+  <div class="stat"><span class="stat__num">{{ c | size }}</span><span class="stat__label">학술대회 발표<br><span lang="en">Conference</span></span></div>
+</div>

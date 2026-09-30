@@ -1,5 +1,6 @@
 # 논문 등재구분 배지 — publications.yml의 type 값과 짝을 이룹니다
-ssci: "SSCI/SCIE"
+ssci: "SSCI"
+scie: "SCIE"
 scopus: "Scopus"
 kci: "KCI"
 kci-c: "KCI후보"

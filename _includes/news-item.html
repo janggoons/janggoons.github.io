@@ -1,0 +1,2 @@
+{%- assign n = include.n -%}
+<li class="news-item"><span class="news-date">{{ n.date }}</span><span class="news-body"><span class="news-type news-type--{{ n.type }}">{{ site.data.news_types[n.type] }}</span> {% if n.link %}<a href="{{ n.link }}">{{ n.text }}</a>{% else %}{{ n.text }}{% endif %}</span></li>

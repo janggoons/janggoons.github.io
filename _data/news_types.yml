@@ -1,0 +1,7 @@
+# 활동 소식 유형 라벨 — news.yml의 type 값과 짝을 이룹니다
+pub: "논문"
+report: "보고서"
+conf: "발표"
+award: "수상"
+position: "임용"
+talk: "특강"

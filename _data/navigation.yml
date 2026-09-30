@@ -1,18 +1,17 @@
 # 상단 메뉴 — 순서대로 표시됩니다
+# 연구 성과 중심: Research → Publications → Teaching → News → About → Blog
 main:
-  - title: "글"
-    url: /posts/
-  - title: "카테고리"
-    url: /categories/
-  - title: "태그"
-    url: /tags/
   - title: "Research"
     url: /research/
-  - title: "Books"
-    url: /books/
-  - title: "Lectures"
-    url: /lectures/
-  - title: "Activity"
-    url: /activity/
+  - title: "Publications"
+    url: /publications/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "News"
+    url: /news/
   - title: "About"
     url: /about/
+  - title: "Blog"
+    url: /blog/
+  - title: "EN"
+    url: /en/

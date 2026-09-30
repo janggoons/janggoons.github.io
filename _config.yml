@@ -8,16 +8,17 @@ minimal_mistakes_skin: "default"   # air, aqua, contrast, dark, dirt, neon, mint
 
 # 사이트 기본 정보
 locale: "ko-KR"
-title: "장윤재 · Computing Education Lab"
+title: "장윤재 YunJae Jang · Computing Education Lab"
 masthead_title: "Computing Education Lab"   # 상단 메뉴 왼쪽에 보이는 제목 (브라우저 탭·검색 결과에는 title 사용)
 title_separator: "|"
 name: "장윤재"
-description: "강원대학교 장윤재의 컴퓨팅 교육 · AI 교육 · 디지털 리터러시 연구와 수업 기록"
+description: "YunJae Jang (장윤재), Kangwon National University — research on computing education, AI education, and digital literacy. 강원대학교 장윤재의 컴퓨팅 교육 · AI 교육 · 디지털 리터러시 연구"
 url: "https://janggoons.github.io"
 baseurl: ""
 repository: "janggoons/janggoons.github.io"
 timezone: Asia/Seoul
 words_per_minute: 300
+date_format: "%Y.%m.%d"
 
 # 검색 (Ctrl+K 대신 상단 돋보기 아이콘)
 search: true
@@ -43,17 +44,14 @@ analytics:
 
 # 왼쪽 프로필 사이드바
 author:
-  name: "장윤재"
+  name: "장윤재 YunJae Jang"
   # avatar: "/assets/images/profile.jpg"   # 사진을 assets/images/에 넣고 주석 해제
-  bio: "'컴퓨팅'으로 이해하고 만드는 것을 가르치는 교육자이자 '컴퓨팅 교육' 연구자<br>강원대학교 강릉자유전공학부 조교수 · 학부장"
+  bio: "강원대학교 강릉자유전공학부 조교수 · 학부장<br>Assistant Professor, Kangwon National University<br>Computing · AI Education · Digital Literacy"
   location: "강릉, 대한민국"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/janggoons"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/janggoons"
     - label: "CV (한국어)"
       icon: "fas fa-fw fa-file-alt"
       url: "https://docs.google.com/document/d/1X8UR2HIwXToLiSQd_jrs8X9i1CWWjq45-WO3AwCkhqk/edit?usp=sharing"
@@ -69,6 +67,9 @@ author:
     - label: "Google Sites"
       icon: "fas fa-fw fa-link"
       url: "https://sites.google.com/view/janggoons/home"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/janggoons"
 
 footer:
   links:
@@ -94,14 +95,11 @@ kramdown:
 
 plugins:
   - jekyll-remote-theme
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-
-paginate: 10
-paginate_path: /page:num/
+  - jekyll-redirect-from   # 주소가 바뀐 페이지(/lectures/ → /teaching/ 등) 자동 이동
 
 # 카테고리 · 태그 모아보기 페이지
 category_archive:

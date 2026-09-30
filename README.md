@@ -9,20 +9,31 @@ GitHub에 올리기만 하면 GitHub Pages가 자동으로 사이트를 만들�
 
 ```
 personal-blog/
-├── _config.yml          ← 사이트 전체 설정 (제목, 프로필, 검색, 댓글)
-├── index.html           ← 첫 화면 (소개 한 줄 + 최근 글 목록)
+├── _config.yml          ← 사이트 전체 설정 (제목, 프로필 사이드바, 검색, 댓글)
+├── index.html           ← 첫 화면 (소개 · 연구 주제 · 대표 논문 · 최근 소식)
 ├── _posts/              ← ✍️ 블로그 글 (YYYY-MM-DD-제목.md)
-├── _pages/              ← 고정 페이지 (About, Research, Books, Lectures, Activity, 카테고리·태그 모아보기)
+├── _pages/              ← 고정 페이지
+│   ├── research.md      ←   Research: 연구 흐름 · 주제별 대표 성과 · 도구 · 연구과제
+│   ├── publications.md  ←   Publications: 성과 요약 · 대표 논문 · 전체 목록 · 저서
+│   ├── teaching.md      ←   Teaching: 대학 강의 · 특강/연수 · 교육 자료
+│   ├── news.md          ←   News: 활동 소식 전체
+│   ├── about.md         ←   About: 한/영 소개 · 학력 · 경력 · 수상 · 연락처
+│   ├── en.md            ←   EN: 영문 한 페이지 요약
+│   └── blog.md          ←   Blog: 글 목록 (카테고리 · 태그 링크)
 ├── _data/
 │   ├── navigation.yml   ← 상단 메뉴
-│   ├── publications.yml ← 📄 논문·발표·보고서·학위논문 (Research 페이지에 종류별·연도별 자동 표시)
-│   ├── news.yml         ← 📰 활동 소식 (첫 화면 최근 5건 + Activity 페이지 전체)
-│   └── badges.yml       ← 논문 배지 이름 (SSCI, KCI …)
-├── _includes/pub-list.html ← 논문 목록 출력 틀 (수정할 일 거의 없음)
-├── assets/css/main.scss ← 색상·글꼴·배지 디자인
+│   ├── publications.yml ← 📄 논문·발표·보고서·학위논문 (selected: true → 대표 논문)
+│   ├── news.yml         ← 📰 활동 소식 (type: pub/report/conf/award/position/talk)
+│   ├── badges.yml       ← 논문 배지 이름 (SSCI, SCIE, Scopus, KCI …)
+│   ├── news_types.yml   ← 소식 유형 라벨
+│   └── ui-text.yml      ← 테마 화면 문구(한국어)
+├── _includes/           ← 논문 · 소식 출력 틀, seo.html(제목 중복 수정)
+├── assets/css/main.scss ← 색상·글꼴·배지·레이아웃 디자인
 ├── assets/images/       ← 사진·그림
 └── Gemfile              ← 내 컴퓨터에서 미리보기할 때만 사용
 ```
+
+> 옛 주소(/lectures/, /activity/, /books/, /posts/)는 새 페이지로 자동 이동합니다.
 
 ## 처음 배포하기 (한 번만)
 
@@ -61,16 +72,17 @@ tags:
 본문을 마크다운으로 씁니다.
 ```
 
-- 카테고리를 `강의`로 지정한 글은 **Lectures** 페이지 아래에 자동으로 모입니다.
+- 카테고리를 `강의`로 지정한 글은 **Teaching** 페이지 아래에 자동으로 모입니다.
 - 그림은 `assets/images/`에 넣고 본문에 `![설명](/assets/images/파일명.png)`로 넣습니다.
 - 저장한 뒤 GitHub에 올리면(웹 업로드 또는 `git add . ; git commit -m "글 추가" ; git push`) 1~2분 뒤 반영됩니다.
 
 ## 논문 · 소식 추가하기
 
 - **논문**: `_data/publications.yml`의 해당 종류(`kind`) 구역에 항목 하나를 추가합니다. Research 페이지에 연도별로 자동 정렬되어 표시됩니다. 형식은 파일 맨 위 설명을 참고하세요.
-- **활동 소식**: `_data/news.yml` 맨 위에 `date`·`text`·`link`(선택) 세 줄을 추가합니다. 첫 화면에 바로 반영됩니다.
-- **특강·강의**: `_pages/lectures.md`의 표에 한 줄 추가합니다.
-- **저서**: `_pages/books.md`에 한 줄 추가합니다.
+- **대표 논문**: 해당 논문에 `selected: true`를 넣으면 홈 · Publications · EN 페이지 상단에 나옵니다.
+- **활동 소식**: `_data/news.yml` 맨 위에 `date`·`type`·`text`·`link`(선택)를 추가합니다. 첫 화면에는 특강(`talk`)을 제외한 최근 5건이 나옵니다.
+- **특강·강의**: `_pages/teaching.md`의 표에 한 줄 추가합니다.
+- **저서**: `_pages/publications.md`의 「저서 · 번역서」에 한 줄 추가합니다.
 
 > 2026-09-30에 Google Sites(sites.google.com/view/janggoons) 내용을 모두 옮겼습니다. 이후로는 이 블로그를 기준으로 관리하세요.
 
