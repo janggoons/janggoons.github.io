@@ -156,20 +156,20 @@ a.res-item:hover { box-shadow: 0 4px 12px rgba(0,0,0,.08); transform: translateY
 
 .pub-summary {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: .8em;
+  grid-template-columns: repeat(auto-fit, minmax(105px, 1fr));
+  gap: .6em;
   margin: 1em 0 1.5em;
 }
 .stat {
-  padding: .8em 1em;
+  padding: .7em .4em;
   border: 1px solid $border-color;
   border-radius: 6px;
   text-align: center;
-  .stat__num { display: block; font-size: 1.8em; font-weight: 700; color: $primary-color; line-height: 1.2; }
+  .stat__num { display: block; font-size: 1.7em; font-weight: 700; color: $primary-color; line-height: 1.2; }
   .stat__label { display: block; font-size: .78em; color: $gray; line-height: 1.4; }
 }
 .pub-note { font-size: .8em; color: $gray; }
-.pub-note u { text-decoration: none; font-weight: 700; color: $text-color; }
+.pub-note u { text-decoration: none; border-bottom: 0; font-weight: 700; color: $text-color; }
 
 // 연도별 묶음 — 데스크톱에서는 연도를 왼쪽 칼럼에
 .pub-year-group { margin: 1.2em 0; }
@@ -198,8 +198,8 @@ a.res-item:hover { box-shadow: 0 4px 12px rgba(0,0,0,.08); transform: translateY
   margin-bottom: .9em;
   font-size: .9375em;
   line-height: 1.65;
-  u { text-decoration: none; font-weight: 700; color: $text-color; }   // 본인 이름
-  .badge { justify-self: start; margin-top: .25em; }
+  u { text-decoration: none; border-bottom: 0; font-weight: 700; color: $text-color; }   // 본인 이름 (테마는 u에 밑줄 테두리를 그림)
+  .badge { justify-self: start; align-self: start; margin-top: .25em; }
 }
 .pub-en { display: block; margin-top: .15em; font-size: .88em; color: $gray; }
 .pub-actions { display: block; margin-top: .25em; }
