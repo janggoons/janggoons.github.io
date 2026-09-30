@@ -9,6 +9,7 @@ minimal_mistakes_skin: "default"   # air, aqua, contrast, dark, dirt, neon, mint
 # 사이트 기본 정보
 locale: "ko-KR"
 title: "장윤재 · Computing Education Lab"
+masthead_title: "Computing Education Lab"   # 상단 메뉴 왼쪽에 보이는 제목 (브라우저 탭·검색 결과에는 title 사용)
 title_separator: "|"
 name: "장윤재"
 description: "강원대학교 장윤재의 컴퓨팅 교육 · AI 교육 · 디지털 리터러시 연구와 수업 기록"
@@ -46,11 +47,7 @@ author:
   # avatar: "/assets/images/profile.jpg"   # 사진을 assets/images/에 넣고 주석 해제
   bio: "'컴퓨팅'으로 이해하고 만드는 것을 가르치는 교육자이자 '컴퓨팅 교육' 연구자<br>강원대학교 강릉자유전공학부 조교수 · 학부장"
   location: "강릉, 대한민국"
-  email: "janggoons@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:janggoons@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/janggoons"
