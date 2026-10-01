@@ -4,25 +4,23 @@ permalink: /teaching/
 redirect_from:
   - /lectures/
 toc: true
-toc_label: "Teaching"
+toc_label: "목차"
 toc_sticky: true
 ---
 
 대학 교양 · 교직 과목에서 **컴퓨팅 · 데이터 · AI 리터러시**를 가르치고, 교원 연수와 K-12 특강으로 현장의 컴퓨팅 교육을 지원합니다.
 {: .lead-ko}
 
-<p class="lead-en" lang="en">
-I teach computing, data, and AI literacy in general-education and teacher-education courses, and support school computing education through teacher training and K-12 workshops.
-</p>
 
-## 대학 강의 University Courses
+## 대학 강의
 
-| 기관 Institution | 대표 과목 Courses | 기간 |
+| 기관 | 대표 과목 | 기간 |
 |------|------|------|
-| **강원대학교** Kangwon National Univ. | 창의 컴퓨팅 입문 · 데이터로 말하다 (팀티칭) · 생성형 AI의 이해와 활용 · 전공 및 진로 탐색과 꿈 설계 · 디지털 교육 (교직) | 2026– |
-| **국립강릉원주대학교** Gangneung-Wonju National Univ. | 데이터 이해와 분석 · 데이터 분석과 머신러닝 · 디지털 교육 (교직) | 2025–2026 |
-| **삼육대학교** Sahmyook Univ. | 컴퓨팅 사고력: 파이썬 프로그래밍 · 창의 컴퓨팅 입문 · 웹 프로그래밍의 기초와 이해 · 모바일 웹의 이해와 활용 · SW중심의 미래사회 · 소프트웨어개론 · SW 프로젝트 | 2022–2024 |
-| 대학원 · 시간강사 Graduate & Adjunct | 아주대 · 광주교대 교육대학원(컴퓨터 교육론, AI교육의 이해, 데이터과학과 교육 등), 성신여대, 덕성여대, 서울예대, 고려대 | 2017–2021 |
+| **강원대학교**<br><span class="inst-en">Kangwon National Univ.</span> | 창의 컴퓨팅 입문 · 데이터로 말하다 (팀티칭) · 생성형 AI의 이해와 활용 · 전공 및 진로 탐색과 꿈 설계 · 디지털 교육 (교직) | 2026– |
+| **국립강릉원주대학교**<br><span class="inst-en">Gangneung-Wonju National Univ.</span> | 데이터 이해와 분석 · 데이터 분석과 머신러닝 · 디지털 교육 (교직) | 2025–2026 |
+| **삼육대학교**<br><span class="inst-en">Sahmyook Univ.</span> | 컴퓨팅 사고력: 파이썬 프로그래밍 · 창의 컴퓨팅 입문 · 웹 프로그래밍의 기초와 이해 · 모바일 웹의 이해와 활용 · SW중심의 미래사회 · 소프트웨어개론 · SW 프로젝트 | 2022–2024 |
+| **대학원 · 시간강사**<br><span class="inst-en">Graduate &amp; Adjunct</span> | 아주대 · 광주교대 교육대학원(컴퓨터 교육론, AI교육의 이해, 데이터과학과 교육 등), 성신여대, 덕성여대, 서울예대, 고려대 | 2017–2021 |
+{: .course-table}
 
 <details markdown="1">
 <summary>학기별 강의 상세 보기</summary>
@@ -52,13 +50,12 @@ I teach computing, data, and AI literacy in general-education and teacher-educat
 
 </details>
 
-## 특강 · 연수 Workshops & Training
+## 특강 · 연수
 
 2019년 이후 **교원 · 예비교원 연수 10여 건**, **중·고등학생 특강 25건 이상**, 대학생 · 학부모 · 탈북민 · 해외 학교(몽골) 대상 특강을 진행했습니다.
 
-<p class="lead-en" lang="en">Since 2019: 10+ teacher training programs, 25+ workshops for secondary students, and talks for university students, parents, North Korean defectors, and a school in Mongolia.</p>
 
-### 주요 특강 · 연수 Highlights
+### 주요 특강 · 연수
 
 | 일자 | 기관 · 대상 | 내용 |
 |------|------|------|
@@ -139,7 +136,7 @@ I teach computing, data, and AI literacy in general-education and teacher-educat
 
 </details>
 
-### 초기 교육 활동 Early Teaching (2007–2018)
+### 초기 교육 활동 (2007–2018)
 
 고려대학교 영재교육원 · 정보창의교육연구소 강사로 피지컬 컴퓨팅, 스크래치, 스퀵 이토이, 언플러그드 교육을 가르쳤고, 중학교 방과후 · 자유학기제 수업과 교사 연수를 운영했습니다.
 
@@ -159,7 +156,7 @@ I teach computing, data, and AI literacy in general-education and teacher-educat
 
 </details>
 
-## 교육 자료 사이트 Teaching Resources {#resources}
+## 교육 자료 사이트 {#resources}
 
 직접 만들어 운영해 온 수업 · 교육 자료 사이트입니다.
 
@@ -171,7 +168,7 @@ I teach computing, data, and AI literacy in general-education and teacher-educat
 
 {% assign lecture_posts = site.categories["강의"] %}
 {% if lecture_posts %}
-## 강의 관련 글 Teaching Notes
+## 강의 관련 글
 
 {% for post in lecture_posts %}
 - [{{ post.title }}]({{ post.url | relative_url }}) <small>{{ post.date | date: "%Y.%m.%d" }}</small>

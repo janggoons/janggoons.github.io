@@ -6,60 +6,54 @@ classes: home-page
 
 <section class="home-hero">
   <h1 class="home-name">장윤재 <span class="home-name__en" lang="en">YunJae Jang, Ph.D.</span></h1>
-  <p class="home-role">강원대학교 강릉자유전공학부 조교수 · 학부장<br>
-    <span lang="en">Assistant Professor &amp; Dean, School of Liberal Studies (Gangneung Campus), Kangwon National University, Korea</span></p>
+  <p class="home-role">강원대학교 강릉자유전공학부 조교수 · 학부장</p>
   <p class="home-intro">
     '<strong>컴퓨팅</strong>'으로 무언가를 이해하고 만들어 보는 것을 가르치는 교육자이자, '<strong>컴퓨팅 교육</strong>' 연구자입니다.
     컴퓨팅 교육의 교수·학습 방법과 교육용 도구, AI 교육, AI·디지털 리터러시의 측정을 연구합니다.
   </p>
-  <p class="home-intro home-intro--en" lang="en">
-    I am a computing education researcher who teaches people to understand and create things through computing.
-    My work covers teaching methods and tools for computing education, AI education, and the measurement of AI and digital literacy across K–12, higher education, and teacher professional development.
-  </p>
   <p class="home-buttons">
-    <a class="btn btn--primary" href="{{ '/research/' | relative_url }}">Research</a>
-    <a class="btn btn--primary" href="{{ '/publications/' | relative_url }}">Publications</a>
+    <a class="btn btn--primary" href="{{ '/research/' | relative_url }}">연구</a>
+    <a class="btn btn--primary" href="{{ '/publications/' | relative_url }}">논문</a>
     <a class="btn btn--inverse" href="https://docs.google.com/document/d/1hSi9qDPFXdLzW0Us9hN4P-nbxZc5hayxOl--jcufM5Y/view?usp=sharing">CV (English)</a>
     <a class="btn btn--inverse" href="https://docs.google.com/document/d/1X8UR2HIwXToLiSQd_jrs8X9i1CWWjq45-WO3AwCkhqk/view?usp=sharing">CV (한국어)</a>
   </p>
 </section>
 
-<h2 class="home-section">연구 주제 <span lang="en">Research Themes</span></h2>
+<h2 class="home-section">연구 주제</h2>
 <div class="research-grid">
   <a class="res-item" href="{{ '/research/#computing-education' | relative_url }}">
-    <strong>컴퓨팅 교육 · 교육용 도구</strong><span class="res-sub" lang="en">Computing Education &amp; Learning Tools</span>
+    <strong>컴퓨팅 교육 · 교육용 도구</strong>
     <p>프로그래밍 · 피지컬 컴퓨팅 교수·학습 방법과 학교용 교육 도구</p>
   </a>
   <a class="res-item" href="{{ '/research/#ai-education' | relative_url }}">
-    <strong>AI 교육 · AI 역량</strong><span class="res-sub" lang="en">AI Education &amp; AI Competency</span>
+    <strong>AI 교육 · AI 역량</strong>
     <p>보편적 AI 역량, AI 교양 교육과정, AI 자기효능감, AI 윤리 인식</p>
   </a>
   <a class="res-item" href="{{ '/research/#digital-literacy' | relative_url }}">
-    <strong>디지털 리터러시 · 역량 측정</strong><span class="res-sub" lang="en">Digital Literacy &amp; Assessment</span>
+    <strong>디지털 리터러시 · 역량 측정</strong>
     <p>AI·디지털 리터러시 측정 프레임워크, 정보과 기초학력 진단</p>
   </a>
   <a class="res-item" href="{{ '/research/#teacher-pd' | relative_url }}">
-    <strong>교원 전문성 개발</strong><span class="res-sub" lang="en">Teacher Professional Development</span>
+    <strong>교원 전문성 개발</strong>
     <p>정보·AI 교사 연수 요구, 교과교육학지식(PCK), 교과 융합 실행연구</p>
   </a>
 </div>
 
-<h2 class="home-section">대표 논문 <span lang="en">Selected Publications</span></h2>
+<h2 class="home-section">대표 논문</h2>
 {% include pub-list.html selected=true %}
-<p class="home-more"><a href="{{ '/publications/' | relative_url }}">전체 논문 보기 All publications →</a></p>
+<p class="home-more"><a href="{{ '/publications/' | relative_url }}">전체 논문 보기 →</a></p>
 
-<h2 class="home-section">최근 소식 <span lang="en">Recent News</span></h2>
+<h2 class="home-section">최근 소식</h2>
 {%- assign highlights = site.data.news | where_exp: "n", "n.type != 'talk'" %}
 <ul class="news-list">
 {%- for n in highlights limit: 5 %}
 {% include news-item.html n=n %}
 {%- endfor %}
 </ul>
-<p class="home-more"><a href="{{ '/news/' | relative_url }}">전체 소식 보기 All news →</a></p>
+<p class="home-more"><a href="{{ '/news/' | relative_url }}">전체 소식 보기 →</a></p>
 
 <div class="home-contact notice">
-  <strong>협업 · 문의 Collaboration</strong><br>
-  공동연구, 교원 연수, K-12 컴퓨팅 교육 자문, 특강 및 교재 집필 관련 문의를 환영합니다.<br>
-  <span lang="en">I welcome inquiries about research collaboration (e.g., AI literacy assessment, comparative studies), teacher training, and talks.</span>
-  → <a href="{{ '/about/#contact' | relative_url }}">연락처 Contact</a>
+  <strong>협업 · 문의</strong><br>
+  공동연구, 교원 연수, K-12 컴퓨팅 교육 자문, 특강 및 교재 집필 관련 문의를 환영합니다.
+  → <a href="{{ '/about/#contact' | relative_url }}">연락처</a>
 </div>

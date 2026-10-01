@@ -40,7 +40,13 @@ Beginning with studies of educational programming languages and learning styles,
 
 {% include pub-list.html selected=true %}
 
-Korean-language papers are listed with their official English titles on the [Publications](/publications/) page.
+## Journal Articles
+
+Papers published in Korean are listed with their official English titles. * corresponding author · † co-first author.
+
+{% include pub-list.html kind="journal" %}
+
+Conference presentations, reports, and books (mostly in Korean) are listed on the [Publications](/publications/) page.
 
 ## Teaching
 

@@ -170,13 +170,7 @@ a.res-item:hover { box-shadow: 0 4px 12px rgba(0,0,0,.08); transform: translateY
   .stat__num { display: block; font-size: 1.5em; font-weight: 700; color: $primary-color; line-height: 1.2; }
   .stat__label { display: block; font-size: .75em; color: $gray; line-height: 1.35; }
 }
-.stat--total {                               // 전체 편수 — 채움형으로 구분
-  flex: 1.4 1 6.5em;
-  background: $primary-color;
-  border-color: $primary-color;
-  .stat__num, .stat__label { color: #fff; }
-}
-.stat__op { align-self: center; color: $gray; font-weight: 700; font-size: 1.1em; }
+.stat--conf { border-style: dashed; }      // 학술대회는 학술지와 구분
 .pub-summary__extra { margin: .6em 0 0; font-size: .85em; color: $gray; strong { color: $text-color; } }
 .pub-profiles { font-size: .85em; }
 
@@ -321,6 +315,10 @@ a.res-item:hover { box-shadow: 0 4px 12px rgba(0,0,0,.08); transform: translateY
 }
 
 // ═══════════════ 표 · 접기 ═══════════════
+
+// 대학 강의 요약 표: 기관명 국문/영문 두 줄
+.page__content table.course-table td:first-child { white-space: normal; min-width: 8.5em; }
+.inst-en { display: block; font-size: .82em; color: $gray; line-height: 1.35; }
 
 .page__content table {
   font-size: .875em;

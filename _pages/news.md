@@ -6,7 +6,6 @@ redirect_from:
 ---
 
 연구 · 강의 · 특강 활동 기록입니다. 최신순으로 정리했습니다.
-<span lang="en">Research, teaching, and outreach activities, newest first.</span>
 
 {% assign current_year = "" %}
 <div class="news-archive">
