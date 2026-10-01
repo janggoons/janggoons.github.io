@@ -20,6 +20,9 @@ timezone: Asia/Seoul
 words_per_minute: 300
 date_format: "%Y.%m.%d"
 
+# 공유 미리보기 이미지 (카카오톡 · 메일 · SNS)
+og_image: "/assets/images/og-card.png"
+
 # 검색 (Ctrl+K 대신 상단 돋보기 아이콘)
 search: true
 search_full_content: true
@@ -45,34 +48,37 @@ analytics:
 # 왼쪽 프로필 사이드바
 author:
   name: "장윤재 YunJae Jang"
-  # avatar: "/assets/images/profile.jpg"   # 사진을 assets/images/에 넣고 주석 해제
+  avatar: "/assets/images/profile.jpg"
   bio: "강원대학교 강릉자유전공학부 조교수 · 학부장<br>Assistant Professor, Kangwon National University<br>Computing · AI Education · Digital Literacy"
   location: "강릉, 대한민국"
   links:
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0002-7958-8040"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.co.kr/citations?user=0KzD7EIAAAAJ"
+    - label: "CV (English)"
+      icon: "fas fa-fw fa-file-alt"
+      url: "https://docs.google.com/document/d/1hSi9qDPFXdLzW0Us9hN4P-nbxZc5hayxOl--jcufM5Y/view?usp=sharing"
+    - label: "CV (한국어)"
+      icon: "fas fa-fw fa-file-alt"
+      url: "https://docs.google.com/document/d/1X8UR2HIwXToLiSQd_jrs8X9i1CWWjq45-WO3AwCkhqk/view?usp=sharing"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/janggoons"
-    - label: "CV (한국어)"
-      icon: "fas fa-fw fa-file-alt"
-      url: "https://docs.google.com/document/d/1X8UR2HIwXToLiSQd_jrs8X9i1CWWjq45-WO3AwCkhqk/edit?usp=sharing"
-    - label: "CV (English)"
-      icon: "fas fa-fw fa-file-alt"
-      url: "https://docs.google.com/document/d/1hSi9qDPFXdLzW0Us9hN4P-nbxZc5hayxOl--jcufM5Y/edit?usp=sharing"
-    # - label: "Google Scholar"
-    #   icon: "fas fa-fw fa-graduation-cap"
-    #   url: ""
-    # - label: "ORCID"
-    #   icon: "fab fa-fw fa-orcid"
-    #   url: ""
-    - label: "Google Sites"
-      icon: "fas fa-fw fa-link"
-      url: "https://sites.google.com/view/janggoons/home"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/janggoons"
 
 footer:
   links:
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0000-0002-7958-8040"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.co.kr/citations?user=0KzD7EIAAAAJ"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:janggoons@gmail.com"

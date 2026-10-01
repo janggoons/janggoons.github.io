@@ -36,7 +36,7 @@ I work as a co-investigator on national projects funded by the Korea Foundation 
   <span class="kw">#피지컬컴퓨팅 Physical Computing</span> <span class="kw">#AI윤리 AI Ethics</span> <span class="kw">#교원전문성 Teacher PD</span>
 </p>
 
-**이력서 CV**: [한국어](https://docs.google.com/document/d/1X8UR2HIwXToLiSQd_jrs8X9i1CWWjq45-WO3AwCkhqk/edit?usp=sharing) · [English](https://docs.google.com/document/d/1hSi9qDPFXdLzW0Us9hN4P-nbxZc5hayxOl--jcufM5Y/edit?usp=sharing)
+**이력서 CV**: [한국어](https://docs.google.com/document/d/1X8UR2HIwXToLiSQd_jrs8X9i1CWWjq45-WO3AwCkhqk/view?usp=sharing) · [English](https://docs.google.com/document/d/1hSi9qDPFXdLzW0Us9hN4P-nbxZc5hayxOl--jcufM5Y/view?usp=sharing) &nbsp;|&nbsp; [ORCID](https://orcid.org/0000-0002-7958-8040) · [Google Scholar](https://scholar.google.co.kr/citations?user=0KzD7EIAAAAJ)
 {: .notice--info}
 
 ## 학력 Education

@@ -13,7 +13,7 @@ I am an Assistant Professor and Dean of the School of Liberal Studies (Gangneung
 I received my Ph.D. in Computer Science Education from Korea University in 2018.
 Before joining Kangwon National University in 2026, I was an Assistant Professor at Gangneung-Wonju National University (2025–2026) and Sahmyook University (2022–2025), and a Research Professor at Kyonggi University and Korea University.
 
-**CV**: [English](https://docs.google.com/document/d/1hSi9qDPFXdLzW0Us9hN4P-nbxZc5hayxOl--jcufM5Y/edit?usp=sharing) · [Korean](https://docs.google.com/document/d/1X8UR2HIwXToLiSQd_jrs8X9i1CWWjq45-WO3AwCkhqk/edit?usp=sharing)
+**CV**: [English](https://docs.google.com/document/d/1hSi9qDPFXdLzW0Us9hN4P-nbxZc5hayxOl--jcufM5Y/view?usp=sharing) · [Korean](https://docs.google.com/document/d/1X8UR2HIwXToLiSQd_jrs8X9i1CWWjq45-WO3AwCkhqk/view?usp=sharing) &nbsp;|&nbsp; [ORCID](https://orcid.org/0000-0002-7958-8040) · [Google Scholar](https://scholar.google.co.kr/citations?user=0KzD7EIAAAAJ)
 {: .notice--info}
 
 ## Research

@@ -10,6 +10,9 @@ toc_sticky: true
 
 {% include pub-summary.html %}
 
+인용 정보 Citation profiles: [ORCID](https://orcid.org/0000-0002-7958-8040) · [Google Scholar](https://scholar.google.co.kr/citations?user=0KzD7EIAAAAJ)
+{: .pub-profiles}
+
 <p class="pub-note">
   <u>굵은 이름</u> 본인 · * 교신저자 corresponding · † 공동 제1저자 co-first &nbsp;
   {% for b in site.data.badges %}<span class="badge {{ b[0] }}">{{ b[1] }}</span> {% endfor %}
