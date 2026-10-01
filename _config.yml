@@ -52,6 +52,9 @@ author:
   bio: "강원대학교 강릉자유전공학부 조교수 · 학부장<br>컴퓨팅 교육 · AI 교육 · 디지털 리터러시"
   location: "강릉, 대한민국"
   links:
+    - label: "블로그"
+      icon: "fas fa-fw fa-pen"
+      url: "https://janggoons.github.io/blog/"
     - label: "ORCID"
       icon: "fab fa-fw fa-orcid"
       url: "https://orcid.org/0000-0002-7958-8040"
@@ -73,6 +76,9 @@ author:
 
 footer:
   links:
+    - label: "블로그"
+      icon: "fas fa-fw fa-pen"
+      url: "https://janggoons.github.io/blog/"
     - label: "ORCID"
       icon: "fab fa-fw fa-orcid"
       url: "https://orcid.org/0000-0002-7958-8040"
@@ -106,14 +112,6 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-redirect-from   # 주소가 바뀐 페이지(/lectures/ → /teaching/ 등) 자동 이동
-
-# 카테고리 · 태그 모아보기 페이지
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
 
 # 글 · 페이지 기본값
 defaults:

@@ -165,12 +165,3 @@ toc_sticky: true
 | 프로그래밍 언어 | [스크래치 2.0 프로그래밍](https://sites.google.com/site/scratchprogrammingbook/) · [살아있는 이토이 교과서](https://sites.google.com/site/etoysprogramming/) · [두리틀 프로그래밍](https://sites.google.com/site/dolittleprogramming/) · [프로세싱](https://sites.google.com/site/processingprogramming/) · [앱인벤터](https://sites.google.com/site/appinventorprogramming/) |
 | 피지컬 컴퓨팅 | [Bambi Lab](https://sites.google.com/a/janggoons.kr/bambilab/) · [피지컬 컴퓨팅 교육](https://sites.google.com/site/physicalcomputingeducation/) · [꿀잼보드](https://sites.google.com/site/honeyfunnyboard/) · [카스텔라보드](https://sites.google.com/site/castellaboard/) · [릴리패드 교육](https://sites.google.com/site/lilypadeducation/) · [라즈베리파이 교육](https://sites.google.com/site/raspberrypieducation/) |
 | 기타 | [뉴미디어 교육](https://sites.google.com/site/newmediaedu/) · [한국 인터넷 역사 프로젝트](https://sites.google.com/gfolder.net/koreainternethistory) · [학습양식 설문](https://sites.google.com/site/learningstylewithcse/) |
-
-{% assign lecture_posts = site.categories["강의"] %}
-{% if lecture_posts %}
-## 강의 관련 글
-
-{% for post in lecture_posts %}
-- [{{ post.title }}]({{ post.url | relative_url }}) <small>{{ post.date | date: "%Y.%m.%d" }}</small>
-{% endfor %}
-{% endif %}

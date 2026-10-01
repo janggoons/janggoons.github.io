@@ -11,15 +11,13 @@ GitHub에 올리기만 하면 GitHub Pages가 자동으로 사이트를 만들�
 personal-blog/
 ├── _config.yml          ← 사이트 전체 설정 (제목, 프로필 사이드바, 검색, 댓글)
 ├── index.html           ← 첫 화면 (소개 · 연구 주제 · 대표 논문 · 최근 소식)
-├── _posts/              ← ✍️ 블로그 글 (YYYY-MM-DD-제목.md)
 ├── _pages/              ← 고정 페이지
 │   ├── research.md      ←   Research: 연구 흐름 · 주제별 대표 성과 · 도구 · 연구과제
 │   ├── publications.md  ←   Publications: 성과 요약 · 대표 논문 · 전체 목록 · 저서
 │   ├── teaching.md      ←   Teaching: 대학 강의 · 특강/연수 · 교육 자료
 │   ├── news.md          ←   News: 활동 소식 전체
 │   ├── about.md         ←   About: 한/영 소개 · 학력 · 경력 · 수상 · 연락처
-│   ├── en.md            ←   EN: 영문 한 페이지 요약
-│   └── blog.md          ←   Blog: 글 목록 (카테고리 · 태그 링크)
+│   └── en.md            ←   EN: 영문 한 페이지 요약
 ├── _data/
 │   ├── navigation.yml   ← 상단 메뉴
 │   ├── publications.yml ← 📄 논문·발표·보고서·학위논문 (selected: true → 대표 논문)
@@ -33,7 +31,9 @@ personal-blog/
 └── Gemfile              ← 내 컴퓨터에서 미리보기할 때만 사용
 ```
 
-> 옛 주소(/lectures/, /activity/, /books/, /posts/)는 새 페이지로 자동 이동합니다.
+> 옛 주소(/lectures/, /activity/, /books/)는 새 페이지로 자동 이동합니다.
+>
+> **블로그는 별도 사이트입니다** (2026-10-01 분리): https://janggoons.github.io/blog/ · 로컬 `Dropbox\blog\` · 저장소 `janggoons/blog`. 글쓰기 방법은 그 폴더의 README.md를 보세요.
 
 ## 처음 배포하기 (한 번만)
 
@@ -54,27 +54,9 @@ personal-blog/
 4. 저장소 **Settings → Pages**에서 Source를 **Deploy from a branch**, Branch를 **main / (root)**로 지정합니다.
 5. 2~3분 뒤 https://janggoons.github.io 에 접속합니다. 진행 상황은 저장소의 **Actions** 탭에서 볼 수 있습니다.
 
-## 새 글 쓰기
+## 블로그 글 쓰기
 
-`_posts/` 폴더에 `2026-10-01-ai-ethics-class.md` 같은 이름으로 파일을 만듭니다.
-파일 이름에는 날짜와 영문 제목을 쓰고, 실제로 보이는 제목은 파일 안의 `title:`에 적습니다.
-
-```markdown
----
-title: "생성형 AI 윤리 수업을 마치고"
-categories:
-  - 강의
-tags:
-  - AI윤리
-  - 수업설계
----
-
-본문을 마크다운으로 씁니다.
-```
-
-- 카테고리를 `강의`로 지정한 글은 **Teaching** 페이지 아래에 자동으로 모입니다.
-- 그림은 `assets/images/`에 넣고 본문에 `![설명](/assets/images/파일명.png)`로 넣습니다.
-- 저장한 뒤 GitHub에 올리면(웹 업로드 또는 `git add . ; git commit -m "글 추가" ; git push`) 1~2분 뒤 반영됩니다.
+블로그는 별도 저장소로 분리했습니다. `C:\Users\owner\Dropbox\blog\README.md`를 참고하세요.
 
 ## 논문 · 소식 추가하기
 

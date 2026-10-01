@@ -1,5 +1,5 @@
 # 상단 메뉴 — 순서대로 표시됩니다
-# 연구 성과 중심: Research → Publications → Teaching → News → About → Blog
+# 연구 성과 중심: Research → Publications → Teaching → News → About (블로그는 별도 사이트, 사이드바 링크)
 main:
   - title: "Research"
     url: /research/
@@ -11,7 +11,5 @@ main:
     url: /news/
   - title: "About"
     url: /about/
-  - title: "Blog"
-    url: /blog/
   - title: "EN"
     url: /en/
