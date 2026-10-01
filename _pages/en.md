@@ -40,13 +40,8 @@ Beginning with studies of educational programming languages and learning styles,
 
 {% include pub-list.html selected=true %}
 
-## Journal Articles
-
-Papers published in Korean are listed with their official English titles. * corresponding author · † co-first author.
-
-{% include pub-list.html kind="journal" %}
-
-Conference presentations, reports, and books (mostly in Korean) are listed on the [Publications](/publications/) page.
+**Full publication list**: [Google Scholar](https://scholar.google.co.kr/citations?user=0KzD7EIAAAAJ) · [ORCID](https://orcid.org/0000-0002-7958-8040) · [Publications page (Korean)](/publications/)
+{: .notice--info}
 
 ## Teaching
 
