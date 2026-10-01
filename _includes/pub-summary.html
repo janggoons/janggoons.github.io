@@ -2,16 +2,29 @@
 {%- assign all = site.data.publications -%}
 {%- assign j = all | where: "kind", "journal" -%}
 {%- assign c = all | where: "kind", "conference" -%}
+{%- assign n_total = j | size -%}
 {%- assign n_ssci = j | where: "type", "ssci" | size -%}
 {%- assign n_scie = j | where: "type", "scie" | size -%}
 {%- assign n_intl = n_ssci | plus: n_scie -%}
 {%- assign n_scopus = j | where: "type", "scopus" | size -%}
 {%- assign n_kci = j | where: "type", "kci" | size -%}
 {%- assign n_kcic = j | where: "type", "kci-c" | size -%}
+{%- assign n_other = n_total | minus: n_intl | minus: n_scopus | minus: n_kci | minus: n_kcic -%}
 <div class="pub-summary">
-  <div class="stat"><span class="stat__num">{{ j | size }}</span><span class="stat__label">학술지 논문<br><span lang="en">Journal articles</span></span></div>
-  <div class="stat"><span class="stat__num">{{ n_intl }}</span><span class="stat__label">SSCI · SCIE</span></div>
-  <div class="stat"><span class="stat__num">{{ n_scopus }}</span><span class="stat__label">Scopus</span></div>
-  <div class="stat"><span class="stat__num">{{ n_kci | plus: n_kcic }}</span><span class="stat__label">KCI · KCI후보</span></div>
-  <div class="stat"><span class="stat__num">{{ c | size }}</span><span class="stat__label">학술대회 발표<br><span lang="en">Conference</span></span></div>
+  <div class="pub-summary__row">
+    <div class="stat stat--total"><span class="stat__num">{{ n_total }}</span><span class="stat__label">학술지 논문 전체<br><span lang="en">Journal articles</span></span></div>
+    <span class="stat__op">=</span>
+    <div class="stat"><span class="stat__num">{{ n_intl }}</span><span class="stat__label">SSCI · SCIE</span></div>
+    <span class="stat__op">+</span>
+    <div class="stat"><span class="stat__num">{{ n_scopus }}</span><span class="stat__label">Scopus</span></div>
+    <span class="stat__op">+</span>
+    <div class="stat"><span class="stat__num">{{ n_kci }}</span><span class="stat__label">KCI</span></div>
+    <span class="stat__op">+</span>
+    <div class="stat"><span class="stat__num">{{ n_kcic }}</span><span class="stat__label">KCI후보</span></div>
+    {%- if n_other > 0 %}
+    <span class="stat__op">+</span>
+    <div class="stat"><span class="stat__num">{{ n_other }}</span><span class="stat__label">기타<br><span lang="en">Other</span></span></div>
+    {%- endif %}
+  </div>
+  <p class="pub-summary__extra">별도 · 학술대회 발표 <strong>{{ c | size }}</strong>편 <span lang="en">(Conference presentations)</span></p>
 </div>

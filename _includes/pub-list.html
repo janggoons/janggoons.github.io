@@ -1,13 +1,14 @@
 {%- comment -%}
   논문 목록 출력
   사용법: {% include pub-list.html kind="journal" %}   → 종류별 · 연도별 목록
-          {% include pub-list.html selected=true %}    → 대표 논문만 (연도 구분 없이)
+          {% include pub-list.html selected=true %}    → 대표 논문 (연구 주제 순서)
   kind: journal / conference / report / etc / thesis
 {%- endcomment -%}
 {%- if include.selected -%}
-{%- assign pubs = site.data.publications | where_exp: "item", "item.selected == true" -%}
+{%- assign pubs = site.data.publications | where_exp: "item", "item.selected == true" | sort: "theme_order" -%}
 <ul class="pub-list pub-list--selected">
 {%- for p in pubs %}
+<li class="pub-theme"><a href="{{ '/research/#' | append: p.theme_id | relative_url }}">{{ p.theme_order | prepend: '0' }} · {{ p.theme }}</a></li>
 {% include pub-item.html p=p %}
 {%- endfor %}
 </ul>

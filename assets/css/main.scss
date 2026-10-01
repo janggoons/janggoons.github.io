@@ -154,20 +154,43 @@ a.res-item:hover { box-shadow: 0 4px 12px rgba(0,0,0,.08); transform: translateY
 
 // ═══════════════ 논문 목록 ═══════════════
 
-.pub-summary {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(105px, 1fr));
-  gap: .6em;
-  margin: 1em 0 1.5em;
+.pub-summary { margin: 1em 0 1.5em; }
+.pub-summary__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: .4em;
 }
 .stat {
-  padding: .7em .4em;
+  flex: 1 1 4.5em;
+  padding: .6em .4em;
   border: 1px solid $border-color;
   border-radius: 6px;
   text-align: center;
-  .stat__num { display: block; font-size: 1.7em; font-weight: 700; color: $primary-color; line-height: 1.2; }
-  .stat__label { display: block; font-size: .78em; color: $gray; line-height: 1.4; }
+  .stat__num { display: block; font-size: 1.5em; font-weight: 700; color: $primary-color; line-height: 1.2; }
+  .stat__label { display: block; font-size: .75em; color: $gray; line-height: 1.35; }
 }
+.stat--total {                               // 전체 편수 — 채움형으로 구분
+  flex: 1.4 1 6.5em;
+  background: $primary-color;
+  border-color: $primary-color;
+  .stat__num, .stat__label { color: #fff; }
+}
+.stat__op { align-self: center; color: $gray; font-weight: 700; font-size: 1.1em; }
+.pub-summary__extra { margin: .6em 0 0; font-size: .85em; color: $gray; strong { color: $text-color; } }
+.pub-profiles { font-size: .85em; }
+
+// 대표 논문 — 연구 주제 라벨
+.pub-list--selected .pub-theme {
+  margin: 1.1em 0 .35em;
+  font-size: .8em;
+  font-weight: 600;
+  letter-spacing: .02em;
+  a { text-decoration: none; color: $primary-color; }
+  a:hover { text-decoration: underline; }
+}
+.pub-list--selected .pub-theme:first-child { margin-top: .3em; }
+
 .pub-note { font-size: .8em; color: $gray; }
 .pub-note u { text-decoration: none; border-bottom: 0; font-weight: 700; color: $text-color; }
 

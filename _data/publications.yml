@@ -5,7 +5,10 @@
 #  - kind: journal        # journal 학술지 / conference 학술대회 / report 보고서 / etc 기타 / thesis 학위논문
 #    year: 2026
 #    type: ssci           # 배지: ssci / scie / scopus / kci / kci-c / conf / conf-intl (없으면 줄 삭제)
-#    selected: true       # 대표 논문 (홈 · Publications 상단에 표시)
+#    selected: true       # 대표 논문 — 연구 주제당 1편 (홈 · Publications · EN 상단)
+#    theme_order: 1       # 대표 논문 표시 순서 = 연구 주제 번호
+#    theme: "..."         # 대표 논문 위에 보이는 연구 주제 이름
+#    theme_id: ...        # Research 페이지 주제 앵커
 #    title_en: "..."      # 한국어 논문의 영문 제목 (선택)
 #    url: https://...     # 논문 페이지 (선택)
 #    doi: 10.xxxx/xxxxx   # 선택
@@ -24,6 +27,9 @@
 - kind: journal
   year: 2026
   selected: true
+  theme_order: 2
+  theme: "AI 교육 · AI 역량"
+  theme_id: ai-education
   type: ssci
   doi: 10.1080/10494820.2026.2667458
   cite: >-
@@ -31,6 +37,9 @@
 - kind: journal
   year: 2026
   selected: true
+  theme_order: 3
+  theme: "디지털 리터러시 · 역량 측정"
+  theme_id: digital-literacy
   title_en: "Development of Achievement Standards for Diagnosing Basic Academic Competence in Informatics"
   type: kci
   url: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003348145
@@ -40,7 +49,6 @@
 # 2025
 - kind: journal
   year: 2025
-  selected: true
   doi: 10.18517/ijaseit.15.3.12970
   type: scopus
   url: https://ijaseit.insightsociety.org/index.php/ijaseit/article/view/12970
@@ -74,6 +82,9 @@
 - kind: journal
   year: 2024
   selected: true
+  theme_order: 4
+  theme: "교원 전문성 개발"
+  theme_id: teacher-pd
   doi: 10.14333/KJTE.2024.40.4.11
   title_en: "Analysis of Educational Needs of Teachers Participating in Informatics & Computer Double & Minor Major Teacher Certification Training"
   type: kci
@@ -108,7 +119,6 @@
 # 2023
 - kind: journal
   year: 2023
-  selected: true
   doi: 10.18517/ijaseit.13.5.19057
   type: scopus
   url: https://www.insightsociety.org/ojaseit/index.php/ijaseit/article/view/19057
@@ -177,6 +187,9 @@
 - kind: journal
   year: 2018
   selected: true
+  theme_order: 1
+  theme: "컴퓨팅 교육 · 교육용 도구"
+  theme_id: computing-education
   doi: 10.1007/s12083-017-0608-y
   type: scie
   url: https://link.springer.com/article/10.1007/s12083-017-0608-y
