@@ -29,6 +29,7 @@
   selected: true
   theme_order: 2
   theme: "AI 교육 · AI 역량"
+  theme_en: "AI Education & AI Competency"
   theme_id: ai-education
   type: ssci
   doi: 10.1080/10494820.2026.2667458
@@ -39,6 +40,7 @@
   selected: true
   theme_order: 3
   theme: "디지털 리터러시 · 역량 측정"
+  theme_en: "Digital Literacy & Assessment"
   theme_id: digital-literacy
   title_en: "Development of Achievement Standards for Diagnosing Basic Academic Competence in Informatics"
   type: kci
@@ -84,6 +86,7 @@
   selected: true
   theme_order: 4
   theme: "교원 전문성 개발"
+  theme_en: "Teacher Professional Development"
   theme_id: teacher-pd
   doi: 10.14333/KJTE.2024.40.4.11
   title_en: "Analysis of Educational Needs of Teachers Participating in Informatics & Computer Double & Minor Major Teacher Certification Training"
@@ -189,6 +192,7 @@
   selected: true
   theme_order: 1
   theme: "컴퓨팅 교육 · 교육용 도구"
+  theme_en: "Computing Education & Learning Tools"
   theme_id: computing-education
   doi: 10.1007/s12083-017-0608-y
   type: scie

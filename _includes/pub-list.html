@@ -8,7 +8,7 @@
 {%- assign pubs = site.data.publications | where_exp: "item", "item.selected == true" | sort: "theme_order" -%}
 <ul class="pub-list pub-list--selected">
 {%- for p in pubs %}
-<li class="pub-theme"><a href="{{ '/research/#' | append: p.theme_id | relative_url }}">{{ p.theme_order | prepend: '0' }} · {{ p.theme }}</a></li>
+<li class="pub-theme"><a href="{{ '/research/#' | append: p.theme_id | relative_url }}">{{ p.theme_order | prepend: '0' }} · {% if page.locale == 'en' %}{{ p.theme_en }}{% else %}{{ p.theme }}{% endif %}</a></li>
 {% include pub-item.html p=p %}
 {%- endfor %}
 </ul>
