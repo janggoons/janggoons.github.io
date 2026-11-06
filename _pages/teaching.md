@@ -59,6 +59,7 @@ toc_sticky: true
 
 | 일자 | 기관 · 대상 | 내용 |
 |------|------|------|
+| 2026.10.23, 11.06 | 건국대학교사범대학부속고등학교 (고1·2) | 생성형 AI 활용 특강 — AI를 틀리게 만들어 보자 · 바이브 코딩으로 나만의 공부 앱 만들기 [[자료]](https://janggoons.github.io/genai-class-2026/) [[학생 결과]](https://janggoons.github.io/genai-class-2026/results/) |
 | 2023–2026 | 동국대학교 정보컴퓨터 부전공 연수 (교사) | 컴퓨터교재연구및지도법 (매년) [[링크]](https://www.notion.so/janggoons/2022-65d76e097bca4b9d9b5717778a5d6275?pvs=4) |
 | 2025.07.23 | 강원대학교 교육대학원 | AI융합교육 특강 [[슬라이드]](https://docs.google.com/presentation/d/1QytWt69hOUES4xEaa-XHJfa5DvsLs9wb5TdmAQbvdDU/edit?usp=sharing) |
 | 2025.12.22 | 영신여자고등학교 | 피지컬 AI 특강 [[슬라이드]](https://docs.google.com/presentation/d/1lkx5sV2yDTuVAdd6_oR17t07sBZVrEKWugkJ6cAKF_4/edit?usp=sharing) |
@@ -98,6 +99,7 @@ toc_sticky: true
 
 | 일자 | 기관 | 내용 |
 |------|------|------|
+| 2026.10.23, 11.06 | 건국대학교사범대학부속고등학교 | 생성형 AI 활용 특강 [[자료]](https://janggoons.github.io/genai-class-2026/) [[학생 결과]](https://janggoons.github.io/genai-class-2026/results/) |
 | 2025.12.24, 26 | 건국대학교사범대학부속고등학교 | AI 특강 |
 | 2025.12.22 | 영신여자고등학교 | 피지컬 AI 특강 |
 | 2025.09.13 | 서울대학교사범대학부속고등학교 | 미디어아트 코딩 |
