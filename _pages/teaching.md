@@ -59,6 +59,7 @@ toc_sticky: true
 
 | 일자 | 기관 · 대상 | 내용 |
 |------|------|------|
+| 2026.11.12 | 강원대학교 사범대학 (교수) | AI 에이전트 시대의 교육 연구 동향과 교원의 에이전트 활용 [[자료]](https://janggoons.github.io/knu-edu-ai-agent-2026/) |
 | 2026.10.23, 11.06 | 건국대학교사범대학부속고등학교 (고1·2) | 생성형 AI 활용 특강 — AI를 틀리게 만들어 보자 · 바이브 코딩으로 나만의 공부 앱 만들기 [[자료]](https://janggoons.github.io/genai-class-2026/) [[학생 결과]](https://janggoons.github.io/genai-class-2026/results/) |
 | 2023–2026 | 동국대학교 정보컴퓨터 부전공 연수 (교사) | 컴퓨터교재연구및지도법 (매년) [[링크]](https://www.notion.so/janggoons/2022-65d76e097bca4b9d9b5717778a5d6275?pvs=4) |
 | 2025.07.23 | 강원대학교 교육대학원 | AI융합교육 특강 [[슬라이드]](https://docs.google.com/presentation/d/1QytWt69hOUES4xEaa-XHJfa5DvsLs9wb5TdmAQbvdDU/edit?usp=sharing) |
@@ -76,6 +77,7 @@ toc_sticky: true
 | 일자 | 기관 | 내용 |
 |------|------|------|
 | 2023–2026 | 동국대학교 | 정보컴퓨터 부전공 연수 — 컴퓨터교재연구및지도법 (2023.07.31–08.04, 2024, 2025, 2026.01·08) |
+| 2026.11.12 | 강원대학교 사범대학 | AI 에이전트 시대의 교육 연구 동향과 교원의 에이전트 활용 [[자료]](https://janggoons.github.io/knu-edu-ai-agent-2026/) |
 | 2025.07.23 | 강원대학교 교육대학원 | AI융합교육 특강 |
 | 2024.12.16 | 국민대학교 교육학과 | 생성형 AI(ChatGPT)의 교육적 활용과 AI 윤리의 이해 |
 | 2024.10.18, 25 | 안양과천교육지원청 | AIDT 역량강화 연수 (중등 교사) |
