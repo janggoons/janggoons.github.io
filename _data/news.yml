@@ -9,6 +9,10 @@
 #  출처: Google Sites Home · PreviousActivity (2026-09-30 기준)
 # ─────────────────────────────────────────────
 
+- date: "2026.11.21"
+  type: pub
+  text: "SSCI 논문 정식 권호 게재 — Playfulness and Social–Emotional Support as Predictors of Elementary Students' AI Self-Efficacy (Interactive Learning Environments 34권 9호)"
+  link: https://doi.org/10.1080/10494820.2026.2667458
 - date: "2026.11.12"
   type: talk
   text: "강원대학교 사범대학 교수 대상 특강 「AI 에이전트 시대의 교육 연구 동향과 교원의 에이전트 활용」"
@@ -17,6 +21,15 @@
   type: talk
   text: "건국대학교사범대학부속고등학교 「생성형 AI 활용 특강」 (2회) — AI를 틀리게 만들어 보고, 바이브 코딩으로 공부 앱 8개 제작"
   link: https://janggoons.github.io/genai-class-2026/results/
+- date: "2026.08.26"
+  type: talk
+  text: "탈북민 대상 「생활 속 인공지능」 특강"
+- date: "2026.08.22"
+  type: talk
+  text: "한국교육학술정보원(KERIS) AI 지식 역량 강화 연수 심화 과정 강의 (초등 인공지능 프로젝트, 중등 비지도학습 모델 제작)"
+- date: "2026.07.18"
+  type: talk
+  text: "홍천교육청 인공지능 수학 아카데미 특강 「컴퓨터와 나누는 대화, 그 속의 수학」"
 - date: "2026.07"
   type: pub
   text: "SSCI 논문 게재 — Playfulness and Social–Emotional Support as Predictors of Elementary Students' AI Self-Efficacy (Interactive Learning Environments)"
@@ -28,6 +41,12 @@
   type: pub
   text: "논문 게재 — 정보과 기초학력 수준 진단을 위한 성취기준 개발 (컴퓨터교육학회논문지, 29(6))"
   link: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003348145
+- date: "2026.04.30"
+  type: talk
+  text: "탈북민 대상 인공지능 특강"
+- date: "2026.03.28"
+  type: talk
+  text: "서울대학교사범대학부속고등학교 「AI · 파이썬 기초」 특강"
 - date: "2026.03"
   type: report
   text: "연구보고서 발간 — 초·중학생 AI·디지털 리터러시 수준 측정을 위한 프레임워크 개발 (한국교육학술정보원 RM 2026-5)"

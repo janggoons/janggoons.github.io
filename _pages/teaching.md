@@ -61,6 +61,7 @@ toc_sticky: true
 |------|------|------|
 | 2026.11.12 | 강원대학교 사범대학 (교수) | AI 에이전트 시대의 교육 연구 동향과 교원의 에이전트 활용 [[자료]](https://janggoons.github.io/knu-edu-ai-agent-2026/) |
 | 2026.10.23, 11.06 | 건국대학교사범대학부속고등학교 (고1·2) | 생성형 AI 활용 특강 — AI를 틀리게 만들어 보자 · 바이브 코딩으로 나만의 공부 앱 만들기 [[자료]](https://janggoons.github.io/genai-class-2026/) [[학생 결과]](https://janggoons.github.io/genai-class-2026/results/) |
+| 2026.08.22, 24–25 | 한국교육학술정보원(KERIS) (초·중등 교사) | AI 지식 역량 강화 연수 심화 과정 · 인공지능 프로젝트(초등) · 비지도학습 모델 제작(중등) |
 | 2023–2026 | 동국대학교 정보컴퓨터 부전공 연수 (교사) | 컴퓨터교재연구및지도법 (매년) [[링크]](https://www.notion.so/janggoons/2022-65d76e097bca4b9d9b5717778a5d6275?pvs=4) |
 | 2025.07.23 | 강원대학교 교육대학원 | AI융합교육 특강 [[슬라이드]](https://docs.google.com/presentation/d/1QytWt69hOUES4xEaa-XHJfa5DvsLs9wb5TdmAQbvdDU/edit?usp=sharing) |
 | 2025.12.22 | 영신여자고등학교 | 피지컬 AI 특강 [[슬라이드]](https://docs.google.com/presentation/d/1lkx5sV2yDTuVAdd6_oR17t07sBZVrEKWugkJ6cAKF_4/edit?usp=sharing) |
@@ -78,6 +79,8 @@ toc_sticky: true
 |------|------|------|
 | 2023–2026 | 동국대학교 | 정보컴퓨터 부전공 연수 — 컴퓨터교재연구및지도법 (2023.07.31–08.04, 2024, 2025, 2026.01·08) |
 | 2026.11.12 | 강원대학교 사범대학 | AI 에이전트 시대의 교육 연구 동향과 교원의 에이전트 활용 [[자료]](https://janggoons.github.io/knu-edu-ai-agent-2026/) |
+| 2026.08.22, 24–25 | 한국교육학술정보원(KERIS) | AI 지식 역량 강화 연수 심화 과정 · 인공지능 프로젝트(초등 교사) · 비지도학습 모델 제작(중등 교사) |
+| 2026.03.25 | 강원대학교 춘천캠퍼스 (예비교원) | 꿈설계 특강 「코드에서 프롬프트로」 |
 | 2025.07.23 | 강원대학교 교육대학원 | AI융합교육 특강 |
 | 2024.12.16 | 국민대학교 교육학과 | 생성형 AI(ChatGPT)의 교육적 활용과 AI 윤리의 이해 |
 | 2024.10.18, 25 | 안양과천교육지원청 | AIDT 역량강화 연수 (중등 교사) |
@@ -102,6 +105,8 @@ toc_sticky: true
 | 일자 | 기관 | 내용 |
 |------|------|------|
 | 2026.10.23, 11.06 | 건국대학교사범대학부속고등학교 | 생성형 AI 활용 특강 [[자료]](https://janggoons.github.io/genai-class-2026/) [[학생 결과]](https://janggoons.github.io/genai-class-2026/results/) |
+| 2026.07.18 | 홍천교육청 인공지능 수학 아카데미 (홍천고등학교) | 컴퓨터와 나누는 대화, 그 속의 수학 |
+| 2026.03.28 | 서울대학교사범대학부속고등학교 | AI · 파이썬 기초 특강 |
 | 2025.12.24, 26 | 건국대학교사범대학부속고등학교 | AI 특강 |
 | 2025.12.22 | 영신여자고등학교 | 피지컬 AI 특강 |
 | 2025.09.13 | 서울대학교사범대학부속고등학교 | 미디어아트 코딩 |
@@ -134,6 +139,8 @@ toc_sticky: true
 
 | 일자 | 대상 | 내용 |
 |------|------|------|
+| 2026.08.26 | 탈북민 | 생활 속 인공지능 |
+| 2026.04.30 | 탈북민 | 인공지능 특강 |
 | 2024.12.19 | 탈북민 | 놀이로 배우는 인공지능 AI Unplugged [[링크]](https://docs.google.com/presentation/d/1kQD-gZqG9-eE3GLnywqQZOzG01efD_8FCbGg4qT36zk/edit?usp=sharing) |
 | 2024.07.03 | 정덕초등학교 학부모 | 인공지능 시대, 자녀와 함께 살아남는 방법 [[발표자료]](https://docs.google.com/presentation/d/11lGAlIfKntcjzwPs4sGrN8riW343mdwBXgPeSVpq63I/edit?usp=sharing) [[노트]](https://docs.google.com/document/d/1Vf_6Db7us1pxHbrLWyPjo43zUPMsYsr0dJjeoR768WY/edit?usp=sharing) |
 | 2023.04.24 | 몽골 투스칼 학교 | 인공지능과 미래사회 [[링크]](https://github.com/janggoons/ai-future-society) |
